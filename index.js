@@ -1,6 +1,8 @@
 let Twig = require('twig');
 let Twing = require('twing');
 
+let fs = require('fs-extra');
+
 let setup = function(type) {
     let template;
 
@@ -65,6 +67,8 @@ let benchmark = function(type, iterations = 100000) {
     console.warn(`Time taken: ${hrDiff / 1000000000}s`);
     console.warn(`Time taken per iteration: ${hrDiff / 1000000000 / iterations}s`);
 };
+
+fs.removeSync('./cache');
 
 benchmark('Twig');
 benchmark('Twing');
