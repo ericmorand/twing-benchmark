@@ -19,7 +19,7 @@ This benchmark is based on the Smarty versus TwigPHP benchmark by [dominics](htt
 
 ## Results
 
-On my machine, with twig.js 1.10.5 and Twing 0.10.2, node.js 9.8.0, 100000 iterations, compile time ignored, cache warmed:
+On my machine, with twig.js ^1.12.0 and Twing ^1.2.0, node.js 9.8.0, 100000 iterations, compile time ignored, cache warmed:
 
 Benchmark | Time Taken
 --- | ---
