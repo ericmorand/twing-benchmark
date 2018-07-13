@@ -23,7 +23,7 @@ On my machine, with twig.js 1.10.5 and Twing 0.10.2, node.js 9.8.0, 100000 itera
 
 Benchmark | Time Taken
 --- | ---
-twig.js | ~37 seconds
+twig.js | ~6 seconds
 Twing | ~1 second
 
 As a matter of comparison, here are the results I get from Smarty versus TwigPHP benchmark on the same machine with TwigPHP 2.4.7, PHP 7.1.15, 100000 iterations, compile time ignored, cache warmed:
